@@ -1,0 +1,279 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #e1e2ea; 
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: "Verdana";
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  line-height: 60px;
+}
+
+h2 {
+  padding-top: 40px;
+}
+
+h2.first {
+  font-family: "Verdana";
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  line-height: 1.3em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.home {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.one {
+  text-align: center;
+  font-size: 17px;
+}
+
+.text {
+  padding-left: 88px;
+  font-family: "Verdana";
+  font-size: 17px;
+}
+
+.shih {
+  padding-left: 100px;
+  font-family: "Verdana";
+  font-size: 17px;
+}
+
+.gath {
+  padding-left: 120px;
+  font-family: "Verdana";
+  font-size: 17px;
+}
+
+.thadani {
+  padding-left: 40px;
+  font-family: "Verdana";
+  font-size: 17px;
+}
+
+.kerrins {
+  padding-left: 77px;
+  padding-bottom: 20px;
+  font-family: "Verdana";
+  font-size: 17px;
+}
+
+.list {
+  padding-left: 320px;
+  font-family: "Verdana";
+  font-size: 15px;
+  padding-right: 20px;
+}
+
+/* STYLE IMAGES */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  background-color: #7f7d9c;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  background-color: #c5c6d0;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e2ea;
+}
+
+img {
+  max-width: 160%;
+  max-height: 160%;
+  padding-left: 20px;
+  border-style: solid;
+  border-color: #7f7d9c;
+  border-width: 8px;
+  border-radius: 5px;
+}
+
+img.index {
+  padding-left: 0;
+  border-color: #ff525a;
+}
+
+img.clara {
+  max-width: 190%;
+  max-height: 190%;
+  padding-left: 20px;
+  border-color: #c5c6d0;
+}
+
+img.shannon {
+  max-width: 275%;
+  max-height: 275%;
+  padding-left: 20px;
+}
+
+img.sehr {
+  max-width: 98%;
+  max-height: 98%;
+  padding-left: 20px;
+  border-color: #c5c6d0;
+}
+
+img.tracy {
+  max-width: 130%;
+  max-height: 130%;
+  padding-left: 20px;
+}
+
+img.stat {
+  max-width: 165%;
+  max-height: 165%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #7f7d9c;
+}
+
+.flex-container {      
+  display: flex;       
+  flex-direction: row; 
+  flex-wrap: nowrap;   
+} 
+
+.flex-item {           
+  flex-basis: 100%;    
+  margin: 1%;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: black;
+  overflow: hidden;
+  height: 50px;
+  padding-top: 20px;
+}
+
+ol li {
+  margin-bottom: 5px;
+  padding: 0;
+  line-height: 1.2;
+}
+
+li {
+  display: inline;
+  margin: 3em;
+}
+
+li.involve {
+  display: list-item;
+  padding-top: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4em;
+  padding: 4em;
+  margin: 1.7em;
+}
+
+li a:hover {
+  background-color: #ff525a;
+}
+
+/* STYLE FACT GENERATOR */
+main {
+  border-radius: 10px;
+  border-style: none;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-family: "Verdana";
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.genFact {
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-family: "Verdana";
+  font-size: 2em;
+  text-align: center;
+  line-height: 1em;
+  background-color: #ff525a;
+  color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 4px;
+}
+
+#fact {
+  border-style: none;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: "Verdana";
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+#myButton { 
+  border-style: none;
+  background-color: #e1e2ea;
+  font-size: 20px;
+  font-family: 'Verdana';
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+header {
+  padding-top: 50px;   
+  padding-left: 30%;
+  padding-right: 30%;
+  margin: 1px;         
+}
+
+main { 
+  padding-top: 25px;      
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 10%;
+  margin-right: 10%;          
+}
